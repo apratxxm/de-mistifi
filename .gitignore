@@ -1,0 +1,12 @@
+# Virtual environments
+venv/
+.venv/
+
+# Output data
+extracted/
+
+# Secrets
+.env
+
+# Python cache
+__pycache__/
