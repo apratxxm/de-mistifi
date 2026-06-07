@@ -1,7 +1,3 @@
-# Engineering Chat Extraction Pipeline
-
-Extracts structured project knowledge bases from raw chat history.
-
 ## Introduction
 Raw chat histories contain valuable engineering context (decisions, debugging, pivots) that gets lost when naive summarization is applied. This pipeline parses chat logs into sessions and uses a 120B parameter LLM to run multi-pass extractions, building a chronological, searchable engineering knowledge base without losing critical details.
 
